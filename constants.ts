@@ -19,7 +19,7 @@ export const INITIAL_NEWS: NewsItem[] = [
   {
     id: '1',
     title: "Siswa MTs Utama Raih Emas di Olimpiade Sains Nasional",
-    date: "2024-05-15",
+    date: "2026-05-15",
     category: "Prestasi",
     content: "Alhamdulillah, siswa kami Budi Santoso berhasil mengharumkan nama sekolah dengan meraih medali emas pada ajang OSN tingkat nasional bidang Matematika.",
     image: "https://picsum.photos/800/600?random=1"
@@ -27,15 +27,15 @@ export const INITIAL_NEWS: NewsItem[] = [
   {
     id: '2',
     title: "Kunjungan Edukatif ke Museum Nasional",
-    date: "2024-05-10",
+    date: "2026-05-10",
     category: "Berita",
     content: "Kelas 8 melakukan kunjungan belajar ke Museum Nasional untuk mempelajari sejarah nusantara secara langsung.",
     image: "https://picsum.photos/800/600?random=2"
   },
   {
     id: '3',
-    title: "Peringatan Maulid Nabi Muhammad SAW 1445 H",
-    date: "2024-04-20",
+    title: "Peringatan Maulid Nabi Muhammad SAW",
+    date: "2026-04-20",
     category: "Berita",
     content: "Acara dimeriahkan dengan lomba hadroh dan ceramah agama yang diikuti oleh seluruh warga sekolah.",
     image: "https://picsum.photos/800/600?random=3"
@@ -43,7 +43,7 @@ export const INITIAL_NEWS: NewsItem[] = [
   {
     id: '4',
     title: "Sosialisasi PPDB Tahun Ajaran Baru Dimulai",
-    date: "2024-04-01",
+    date: "2026-04-01",
     category: "Pengumuman",
     content: "Penerimaan Peserta Didik Baru (PPDB) telah resmi dibuka. Segera daftarkan putra-putri Anda melalui website atau datang langsung ke sekolah.",
     image: "https://picsum.photos/800/600?random=4"
@@ -51,7 +51,7 @@ export const INITIAL_NEWS: NewsItem[] = [
   {
     id: '5',
     title: "Pelatihan Guru: Implementasi Kurikulum Merdeka",
-    date: "2024-03-15",
+    date: "2026-03-15",
     category: "Berita",
     content: "Guru-guru MTs Utama mengikuti workshop intensif selama 3 hari untuk mematangkan persiapan Kurikulum Merdeka.",
     image: "https://picsum.photos/800/600?random=5"
@@ -74,7 +74,7 @@ export const PPDB_FAQS: FAQ[] = [
 ];
 
 export const INITIAL_STAFF: Teacher[] = [
-  { id: '1', name: 'Ahmad Dahlan, S.Pd', subject: 'Matematika', photo: 'https://picsum.photos/200/200?random=10', bio: 'Guru teladan tahun 2023.' },
+  { id: '1', name: 'Ahmad Dahlan, S.Pd', subject: 'Matematika', photo: 'https://picsum.photos/200/200?random=10', bio: 'Guru teladan tahun 2025.' },
   { id: '2', name: 'Siti Aminah, M.Ag', subject: 'Fiqih', photo: 'https://picsum.photos/200/200?random=11', bio: 'Lulusan terbaik UIN Jakarta.' },
   { id: '3', name: 'Budi Prakoso, S.Or', subject: 'PJOK', photo: 'https://picsum.photos/200/200?random=12', bio: 'Pelatih futsal berlisensi nasional.' },
 ];

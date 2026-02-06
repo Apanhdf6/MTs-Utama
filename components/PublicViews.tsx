@@ -164,7 +164,7 @@ export const PPDB: React.FC<{ onSubmit: (data: Omit<PPDBApplicant, 'id' | 'statu
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div className="text-center mb-12" data-aos="fade-up">
-        <span className="bg-secondary-100 dark:bg-secondary-900 text-secondary-800 dark:text-secondary-200 text-sm font-bold px-3 py-1 rounded-full">Tahun Ajaran 2024/2025</span>
+        <span className="bg-secondary-100 dark:bg-secondary-900 text-secondary-800 dark:text-secondary-200 text-sm font-bold px-3 py-1 rounded-full">Tahun Ajaran 2026/2027</span>
         <h2 className="text-3xl font-display font-bold text-gray-900 dark:text-white mt-4">Penerimaan Peserta Didik Baru</h2>
         <p className="mt-2 text-gray-600 dark:text-gray-300">Bergabunglah menjadi bagian dari keluarga besar MTs Utama.</p>
       </div>
@@ -176,11 +176,11 @@ export const PPDB: React.FC<{ onSubmit: (data: Omit<PPDBApplicant, 'id' | 'statu
             <div className="space-y-4">
               <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
                 <h4 className="font-bold text-primary-700 dark:text-primary-300 text-sm">Gelombang 1</h4>
-                <p className="text-gray-600 dark:text-gray-300">1 Maret - 30 April 2024</p>
+                <p className="text-gray-600 dark:text-gray-300">1 Maret - 30 April 2026</p>
               </div>
               <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
                 <h4 className="font-bold text-primary-700 dark:text-primary-300 text-sm">Gelombang 2</h4>
-                <p className="text-gray-600 dark:text-gray-300">1 Mei - 30 Juni 2024</p>
+                <p className="text-gray-600 dark:text-gray-300">1 Mei - 30 Juni 2026</p>
               </div>
             </div>
 

@@ -53,9 +53,9 @@ const App: React.FC = () => {
   const [news, setNews] = useState<NewsItem[]>(INITIAL_NEWS);
   const [staff, setStaff] = useState(INITIAL_STAFF);
   const [applicants, setApplicants] = useState<PPDBApplicant[]>([
-    { id: '1', name: 'Rina Aulia', previousSchool: 'SDN 01 Pagi', email: 'rina@mail.com', phone: '0812345678', status: 'Pending', submissionDate: '2024-03-01' },
-    { id: '2', name: 'Dimas Anggara', previousSchool: 'MI Al-Huda', email: 'dimas@mail.com', phone: '0812999888', status: 'Diterima', submissionDate: '2024-02-28' },
-    { id: '3', name: 'Siti Nurhaliza', previousSchool: 'SD Pelita', email: 'siti@mail.com', phone: '0856777111', status: 'Ditolak', submissionDate: '2024-02-25' },
+    { id: '1', name: 'Rina Aulia', previousSchool: 'SDN 01 Pagi', email: 'rina@mail.com', phone: '0812345678', status: 'Pending', submissionDate: '2026-03-01' },
+    { id: '2', name: 'Dimas Anggara', previousSchool: 'MI Al-Huda', email: 'dimas@mail.com', phone: '0812999888', status: 'Diterima', submissionDate: '2026-02-28' },
+    { id: '3', name: 'Siti Nurhaliza', previousSchool: 'SD Pelita', email: 'siti@mail.com', phone: '0856777111', status: 'Ditolak', submissionDate: '2026-02-25' },
   ]);
 
   const isAdmin = currentView.startsWith('ADMIN');

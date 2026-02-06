@@ -37,7 +37,7 @@ export const PublicNavbar: React.FC<PublicNavbarProps> = ({ currentView, onNavig
             <a onClick={() => onNavigate('PROFILE')} className={navItemClass('PROFILE')}>Profil</a>
             <a onClick={() => onNavigate('ACADEMIC')} className={navItemClass('ACADEMIC')}>Akademik</a>
             <a onClick={() => onNavigate('NEWS')} className={navItemClass('NEWS')}>Berita</a>
-            <a onClick={() => onNavigate('PPDB')} className={`ml-2 px-4 py-2 rounded-full font-bold shadow-md transition-transform transform hover:scale-105 ${currentView === 'PPDB' ? 'bg-secondary-600 text-white' : 'bg-secondary-500 text-white hover:bg-secondary-600'}`}>PPDB 2024</a>
+            <a onClick={() => onNavigate('PPDB')} className={`ml-2 px-4 py-2 rounded-full font-bold shadow-md transition-transform transform hover:scale-105 ${currentView === 'PPDB' ? 'bg-secondary-600 text-white' : 'bg-secondary-500 text-white hover:bg-secondary-600'}`}>PPDB 2026</a>
             <a onClick={() => onNavigate('CONTACT')} className={navItemClass('CONTACT')}>Kontak</a>
             
             {/* Dark Mode Toggle */}
@@ -118,7 +118,7 @@ export const PublicFooter: React.FC = () => (
       </div>
     </div>
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8 pt-8 border-t border-primary-800 text-center text-sm text-primary-300">
-      &copy; 2024 MTs Utama. All rights reserved.
+      &copy; 2026 MTs Utama. All rights reserved.
     </div>
   </footer>
 );
